@@ -1,0 +1,44 @@
+
+
+.text-block {
+  width: 100%;
+  position: relative;
+}
+
+.jumbotron {
+  position: absolute;
+  color: white;
+    top: 100%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+}
+
+.img-100 {
+
+  height: 500px;
+  width: 900px;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  color: white;
+}
+
+.main-container{
+  border: 3px solid green;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.sub-container{
+    flex-grow: 1 1 0;
+    background-color: green;
+    display: flex;
+}
+
+.sub-container img {
+   width: 100%;
+   height: 100%;
+}
